@@ -32,6 +32,7 @@ public class LandingPage {
         {
             driver.findElement(increment).click();
             i--;
+            driver.findElement(checkOutButton).click();
         }
     }
     public void addToCart()

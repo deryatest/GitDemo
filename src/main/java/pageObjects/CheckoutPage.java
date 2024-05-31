@@ -19,6 +19,7 @@ public class CheckoutPage {
     {
         driver.findElement(cartBag).click();
         driver.findElement(checkOutButton).click();
+        Thread.sleep(2000);
     }
 
     public Boolean VerifyPromoBtn()

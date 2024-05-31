@@ -34,7 +34,7 @@ public OfferPageStepDefinition (TestContextSetup testContextSetup)    {
         OffersPage offersPage=testContextSetup.pageObjectManager.offersPage();
         offersPage.searchItem(shortName);
         Thread.sleep(2000);
-        Thread.sleep(2000);
+        Thread.sleep(2058);
         offerPageProductName = offersPage.getProductName();
         System.out.println (offerPageProductName + " is extracted from Offer page");
     }
