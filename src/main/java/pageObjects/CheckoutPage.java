@@ -25,6 +25,14 @@ public class CheckoutPage {
     {
        return driver.findElement(promoBtn).isDisplayed();
     }
+    public Boolean VerifyPromoBtn1()
+    {
+        return driver.findElement(promoBtn).isDisplayed();
+    }
+    public Boolean VerifyPromoBtn2()
+    {
+        return driver.findElement(promoBtn).isDisplayed();
+    }
     public Boolean VerifyPlaceOrder()
     {
         return driver.findElement(placeOrder).isDisplayed();
