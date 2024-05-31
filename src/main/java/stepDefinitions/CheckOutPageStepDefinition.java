@@ -33,5 +33,6 @@ public class CheckOutPageStepDefinition {
     public void user_proceeds_to_Checkout_and_validate(String name) throws InterruptedException {
         checkoutPage.CheckoutItems();
         Thread.sleep(2000);
+        Thread.sleep(2000);
     }
 }
